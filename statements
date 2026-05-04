@@ -1,0 +1,14 @@
+<html>
+<body>
+    <h2> JAVASCRIPT STATEMENTS</h2>
+    <p>A<b> JAVASCRIPT PROGRAM</b>IS A LIST OF <b>STATEMENTS</b> TO BE EXICUTED BY A COMPUTER.</p>
+    <p id="p"> </p>
+    <script>
+        var x,y,z; // This is statement1
+        x = 5; // This is statement2
+        y = 6; // This is statement3   
+        z = x + y; // This is statement4
+        document.getElementById("p").innerHTML ="THE value of z is: " + z +".";
+    </script>
+</body>
+</html>
